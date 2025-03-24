@@ -1,0 +1,41 @@
+
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+
+.printHis-table-row:last-child
+.printHis-table-th {
+    border: 2px solid #032B91;
+}
+
+.printHis-table-head .printHis-table-row 
+.printHis-table-td:first-child {
+    background-color: #7AC7FF;
+    text-align: left;
+    font-weight: 1000;
+    font-size: 24px;
+}
+
+.printHis-table-td p {
+    padding: 10px;
+    border-bottom: 1px solid #a09f9f;
+}
+
+.printHis-table, .printHis-table-head, .printHis-table-td {
+    border-left: 2px solid #032B91;
+    border-right: 2px solid #032B91;
+    padding: 18px;
+    text-align: center;
+}
+.printHis-table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #032B91;
+    box-shadow: 0 0 0 2px #032B91;
+}
